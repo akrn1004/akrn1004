@@ -1,0 +1,469 @@
+#wrap{
+  width:100%;
+  /* width:100%; background-color: black; */
+}
+#back{
+  width: 100%; height: 840px;
+  background-color: black;
+}
+#main_img{
+  margin: 0 auto;
+  width:1340px; height:840px;
+  background-color: black;
+  background: url(../images/main01) no-repeat center;
+  
+}
+.sub_area{
+  width:100%; height: 800px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top:40px; left: 0;
+  z-index: 1;
+}
+.header_in{
+  margin: 0 auto;
+  width:1340px; height:840px;
+  /* background-color: antiquewhite; */
+
+
+}
+.nav{
+  width:100%; height: 36px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(0, 0, 0);
+}
+.nav>li{
+  text-align: center;
+  line-height: 36px;
+}
+.nav>li a{
+  color:white;
+}
+.shopping {
+  
+  width: 100%; height: 36px;
+ 
+}
+.shopping>ul{
+  margin: 0 auto;
+  width: 200px; height: 40px;
+  padding-top: 10px;
+}
+.shopping>ul>li:nth-child(1){float: left;}
+.shopping>ul>li:nth-child(2){float: right;}
+.shopping>ul>li>a{ color:white;}
+
+
+#main_img h2{
+  color:white;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 25px;
+  
+}
+#main_img p{
+  color:white;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+  
+
+}
+
+
+/* 아이폰14 */
+
+#iphone {
+  margin: 0 auto;
+  background: url(../images/ipnone14background.jpg) no-repeat center;
+  width:1340px; height:700px; 
+  
+
+}
+
+#iphone h2{
+  color:rgb(0, 0, 0);
+  font-size: 60px;
+  text-align: center;
+  padding-top: 45px;
+  
+}
+#iphone p{
+  color:rgb(0, 0, 0);
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+  
+
+}
+
+#iphone .shopping{
+  width: 200px; height: 25px;
+  margin: 10px auto 0;
+  
+ 
+  
+  /* background-color: antiquewhite; */
+}
+#iphone .shopping>li{
+  float: left;
+  margin-right: 42px;
+  margin-top: 10px;
+  box-sizing: border-box;
+
+  
+
+}
+
+#iphone>li:last-child{
+  
+  margin-right: 0;
+
+}
+
+
+
+
+/* 시계 */
+
+
+
+#watch {
+  margin: 0 auto;
+  background: url(../images/watchbackground.jpg) no-repeat center;
+  width:1340px; height:700px; 
+  
+
+}
+
+#watch h2{
+  color:rgb(0, 0, 0);
+  font-size: 60px;
+  text-align: center;
+  padding-top: 45px;
+  
+}
+#watch p{
+  color:rgb(0, 0, 0);
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+  
+
+}
+#watch .txt{
+  color:rgb(255, 111, 0);
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+  
+
+}
+
+#watch .shopping{
+  width: 200px; height: 25px;
+  margin: 10px auto 0;
+  
+ 
+  
+  /* background-color: antiquewhite; */
+}
+#watch .shopping>li{
+  float: left;
+  margin-right: 42px;
+  margin-top: 10px;
+  box-sizing: border-box;
+
+  
+
+}
+
+#watch>li:last-child{
+  
+  margin-right: 0;
+
+}
+
+
+
+/* 콘테츠6개 */
+
+#six{
+  width:100%; 
+}
+#six .watch_airpods{
+  width:1250px; height:624px;
+  margin:0 auto;
+
+}
+#six .watch8{
+  width:624px;
+  text-align: center;
+}
+#six .watch8_bg{
+  background: url(../images/miniwatch.png) no-repeat center;
+  width:624px; height:624px;
+}
+#six h2{
+  font-size: 40px;
+  color:white;
+  padding-top: 60px;
+  font-weight: 900;
+}
+#six .txt{
+  font-size: 12px;
+  color:rgb(255, 0, 0);
+}
+#six p{
+  font-size: 18px;
+  color:white;
+  padding-top: 6px;
+}
+#six ul{
+  width:150px; height: 30px;
+  margin: 10px auto 0px;
+  /* background-color: aliceblue; */
+}
+#six li{
+  float:left;
+
+}
+
+#six li:last-child{
+  float:right;
+
+}
+
+#six a{
+  font-size: 12px;
+  color:rgb(52, 52, 255);
+}
+
+#six .airpods_pro{
+  width:624px;
+  text-align: center;
+}
+#six .airpods_pro_bg{
+  background: url(../images/miniairpods.png) no-repeat center;
+  width:624px; height:624px;
+}
+#six h2{
+  font-size: 40px;
+  color:white;
+  padding-top: 60px;
+  font-weight: 900;
+}
+
+/* se시계 및 맥북에어 */
+
+#six .watch_se_macbook_air{
+  width:1250px; height:624px;
+  margin:0 auto;
+
+}
+#six .watch_se{
+  width:624px;
+  text-align: center;
+}
+#six .watch_se_bg{
+  background: url(../images/miniwatch_se.jpg) no-repeat center;
+  width:624px; height:624px;
+}
+
+#six .watch_se_bg>h2{
+  font-size: 40px;
+  color:rgb(4, 0, 0);
+  padding-top: 60px;
+  font-weight: 900;
+
+}
+
+#six .txt01{
+  font-size: 18px;
+  color:rgb(8, 1, 1);
+  padding-top: 6px;
+}
+
+#six .macbook_air{
+  width:624px; height:624px;
+  text-align: center;
+}
+
+#six .macbook_air_bg{
+  background: url(../images/minimacbookair.jpg) no-repeat center;
+  width:624px; height: 624px; 
+}
+#six .macbook_air_bg>h2{
+  font-size: 40px;
+  color:rgb(4, 0, 0);
+  padding-top: 60px;
+  font-weight: 900;
+
+}
+
+/* 아이패드에어 및 맥북프로 */
+#six .ipad_air_macbook_pro{
+  width:1250px; height:624px;
+  margin:0 auto;
+
+}
+#six .ipad_air{
+  width:624px;
+  text-align: center;
+}
+#six .ipad_air_bg{
+  background: url(../images/miniipadair.jpg) no-repeat center;
+  width:624px; height:624px;
+}
+
+#six .macbook_pro{
+  width:624px;
+  text-align: center;
+}
+#six .macbook_pro_bg{
+  background: url(../images/minimacbookpro.jpg) no-repeat center;
+  width:624px; height:624px;
+}
+
+#six .macbook_pro_bg>h2{
+  font-size: 40px;
+  color:rgb(4, 0, 0);
+  padding-top: 60px;
+  font-weight: 900;
+
+}
+
+/* 애플티비 */
+#tv
+  {width: 100%; height: 370px;
+  /* background-color: chartreuse; */
+}
+#tv_show{
+  margin: 0 auto;
+  width:1340px; height: 370px;
+  position: relative;
+
+}
+#apple_tv>li:nth-child(1){
+   width: 630px; height:370px;
+   position: absolute;
+   top:0; left: 340px;
+   z-index: 400;
+   background: url(../images/apple_tv.jpg)  no-repeat center;
+
+}
+#apple_tv>li:nth-child(2){
+  width: 630px; height:370px;
+  position: absolute;
+   top:0; left: 340px;
+ background-color: rgb(255, 153, 153);
+}
+#apple_tv>li:nth-child(3){
+  width: 630px; height:370px;
+  position: absolute;
+   top:0; left: 340px;
+ background-color: rgb(255, 28, 28);
+}
+
+.tv_btn{
+  position: absolute;
+  top:375px; left:615px;
+  width: 90px; height: 20px;
+  z-index: 900;
+  display: flex;
+  justify-content:space-evenly;
+
+  
+  /* background-color: aqua; */
+}
+.tv_btn>li{
+  border-radius: 100%;
+  width: 15px; height: 15px;
+  z-index: 900;
+  background-color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+/* 하단영역 */
+
+#footer{
+  margin-top: 25px;
+  width: 100%; height:;
+  background-color: rgb(231, 231, 231);
+}
+#footer_in{
+  margin: 0 auto;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  padding:25px;
+
+}
+#footer_in>ul>li>a{
+  color:rgb(0, 0, 0);
+  font-size: 13px;
+}
+#footer_in>ul>li:nth-child(2){
+  margin-top:5px;
+}
+#footer_in>ul>li:nth-child(1){
+  font-weight: 900;
+}
+#address{
+  margin: 0 auto;
+  width: 600px; height: 65px;
+  /* background-color: cornflowerblue; */
+}
+#address>p{
+  font-size: 13px;
+}
+#address .bar{
+  margin-top: 5px;
+  width: 600px; height: 1px;
+  background-color: rgba(174, 174, 174, 0.524);
+}
+.group{
+  margin-top:10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.group>li{
+  font-size: 13px;
+}
+.ref{
+  margin-top: 5px;
+  width: 100%;
+}
+.ref>li{
+  float:left;
+  font-size: 13px;
+  /* color:black; */
+  margin-right: 5px;
+}
+.ref>li>a{
+  color:black;
+}
+.footer_add{
+  margin:0 auto;
+  width: 600px;
+  
+  /* background-color: rgba(0, 0, 0, 0.096); */
+}
+
+
+.footer_add>p{
+  
+  
+  font-size: 11px;
+  color:black;
+}
+
+
+
+
