@@ -11,6 +11,10 @@ a {
   width: 100%;
 }
 
+
+/* 상단 */
+
+
 #header {
   width: 100%;
   height: 1100px;
@@ -129,4 +133,76 @@ a {
   line-height: 60px;
   font-size: 25px;
   font-weight: 900;
+}
+
+/* 학력 */
+
+#contents {
+  width: 100%;
+  height: 1100px;
+  background-color: rgb(31, 31, 31);
+}
+
+.edca {
+  width: 1920px;
+  position: relative;
+}
+
+.edca .line {
+  position: absolute;
+  top: 80px;
+  left: 170px;
+  width: 1600px;
+  height: 6px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: rgb(255, 140, 0);
+}
+
+.edca_h {
+  position: absolute;
+  top: 160px;
+  left: 170px;
+
+
+}
+
+.edca_h h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.school {
+  position: absolute;
+  top: 230px;
+  left: 170px;
+
+
+}
+
+.school li {
+  width: 970px;
+  height: 160px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: rgb(255, 140, 0);
+  margin-bottom: 25px;
+
+
+}
+
+.school li p {
+  font-size: 15px;
+  color: white;
+  margin-left: 50px;
+  line-height: 50px;
+
+}
+
+.school li h5 {
+  font-size: 30px;
+  color: rgb(31, 31, 31);
+  font-weight: 900;
+  margin-left: 50px;
+  line-height: 50px;
+
 }
