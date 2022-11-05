@@ -335,13 +335,15 @@ li {
 
   background-color: rgb(31, 31, 31);
   border-radius: 25px 25px 25px 25px;
+  overflow: hidden;
 
 }
 
 .exper_box li h4 {
-  padding-top: 35px;
+  padding-top: 45px;
   padding-bottom: 35px;
-  color: rgb(255, 255, 255);
+  color: rgb(31, 31, 31);
+
   font-size: 35px;
   font-weight: 900;
 
@@ -352,4 +354,106 @@ li {
   color: rgb(255, 255, 255);
   font-size: 25px;
   font-weight: 900;
+}
+
+.exper_box_h {
+  width: 400px;
+  height: 120px;
+  background-color: aliceblue;
+}
+
+.exper_box_b {}
+
+
+
+
+
+/* 연락 */
+
+#contact {
+  width: 100%;
+  height: 1100px;
+  background-color: rgb(31, 31, 31);
+
+}
+
+.contact_in {
+  margin: 0 auto;
+  width: 1400px;
+}
+
+.con_h {}
+
+.con_h h2 {
+  color: rgb(255, 140, 0);
+  padding-top: 100px;
+
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.con_b {
+  padding-top: 50px;
+}
+
+.con_b h2 {
+  padding-top: 50px;
+  width: 100%;
+  height: 20px;
+
+
+  color: aliceblue;
+  font-size: 16px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+
+}
+
+.name_l {
+  width: 100%;
+  height: 1px;
+  background-color: aliceblue;
+  margin-bottom: 8px;
+  border-radius: 50%;
+
+}
+
+.inName {
+  display: block;
+  padding: 5px 5px 5px 5px;
+  border: 3px solid rgb(255, 140, 0);
+  border-radius: 10px 10px 10px 10px;
+}
+
+
+.email_l {
+  width: 100%;
+  height: 1px;
+  background-color: aliceblue;
+  margin-bottom: 8px;
+  border-radius: 50%;
+
+}
+
+.inEmail {
+  display: block;
+  padding: 5px 5px 5px 5px;
+  border: 3px solid rgb(255, 140, 0);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.massage_l {
+  width: 100%;
+  height: 1px;
+  background-color: aliceblue;
+  margin-bottom: 8px;
+  border-radius: 50%;
+
+}
+
+.inMassage {
+  display: block;
+  padding: 400px 5px 5px 5px;
+  border: 3px solid rgb(255, 140, 0);
+  border-radius: 10px 10px 10px 10px;
 }
