@@ -199,7 +199,10 @@ li {
   background-color: rgb(255, 140, 0);
   margin-bottom: 25px;
 
+}
 
+.school li.schoolAct {
+  background-color: black;
 }
 
 .school li p {
@@ -382,78 +385,56 @@ li {
   width: 1400px;
 }
 
-.con_h {}
+.contact_in h2 {
+  padding-top: 120px;
+  margin-bottom: 50px;
 
-.con_h h2 {
-  color: rgb(255, 140, 0);
-  padding-top: 100px;
-
+  color: white;
   font-size: 50px;
   font-weight: 900;
 }
 
+.con_h {}
+
 .con_b {
-  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.con_b h2 {
-  padding-top: 50px;
-  width: 100%;
-  height: 20px;
-
-
-  color: aliceblue;
-  font-size: 16px;
-  margin-bottom: 2px;
-  margin-left: 5px;
-
+.field {
+  margin-bottom: 30px;
 }
 
-.name_l {
-  width: 100%;
-  height: 1px;
-  background-color: aliceblue;
-  margin-bottom: 8px;
-  border-radius: 50%;
-
-}
-
-.inName {
+.field label {
   display: block;
-  padding: 5px 5px 5px 5px;
-  border: 3px solid rgb(255, 140, 0);
-  border-radius: 10px 10px 10px 10px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
 }
 
-
-.email_l {
-  width: 100%;
-  height: 1px;
-  background-color: aliceblue;
-  margin-bottom: 8px;
-  border-radius: 50%;
-
-}
-
-.inEmail {
+.field input {
   display: block;
-  padding: 5px 5px 5px 5px;
+  min-width: 250px;
+  line-height: 1.5;
+  font-size: 20px;
+  border-radius: 15px 15px 15px 15px;
   border: 3px solid rgb(255, 140, 0);
-  border-radius: 10px 10px 10px 10px;
 }
 
-.massage_l {
-  width: 100%;
-  height: 1px;
-  background-color: aliceblue;
-  margin-bottom: 8px;
-  border-radius: 50%;
-
-}
-
-.inMassage {
+input[type="submit"] {
   display: block;
-  padding: 400px 5px 5px 5px;
+  padding: 6px 30px;
+  font-size: 14px;
+  background-color: rgb(255, 140, 0);
+  color: #fff;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.picture {
+  margin-top: 30px;
+}
+
+.picture img {
   border: 3px solid rgb(255, 140, 0);
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 25px 25px 25px 25px;
 }

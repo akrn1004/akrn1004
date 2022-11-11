@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
   <meta charset="UTF-8">
@@ -9,6 +9,16 @@
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/index.css">
   <script src="./js/jquery.js"></script>
+  <script src="./js/nav.js"></script>
+
+
+  <!-- 메일 보내기 -->
+
+
+
+
+
+
 </head>
 
 <body>
@@ -142,7 +152,8 @@
 
         </div>
         <div class="con_b">
-          <h2 class="font_arial">NAME</h2>
+          <!-- 기존 메일 보내기 이미지만 -->
+          <!-- <h2 class="font_arial">NAME</h2>
           <div class="name_l"></div>
           <input placeholder=" " type="text" name="Name" class="inName" value="" size="100">
 
@@ -154,7 +165,37 @@
           <div class="massage_l"></div>
           <input placeholder=" " type="text" name="Massage" class="inMassage" value="" size="207">
 
-          <button>Send</button>
+          <button>Send</button> -->
+          <form id="form">
+            <div class="field">
+              <label for="from_name" class="font_arial">For Name</label>
+              <input type="text" name="from_name" id="from_name">
+            </div>
+            <div class="field">
+              <label for="to_name" class="font_arial">To Name</label>
+              <input type="text" name="to_name" id="to_name">
+            </div>
+            <div class="field">
+              <label for="message" class="font_arial">Message</label>
+              <input type="text" name="message" id="message">
+            </div>
+            <div class="field">
+              <label for="tel" class="font_arial">Tel.</label>
+              <input type="text" name="tel" id="tel">
+            </div>
+            <div class="field">
+              <label for="reply_to" class="font_arial">Reply to</label>
+              <input type="text" name="reply_to" id="reply_to">
+            </div>
+
+            <input type="submit" id="button" value="Send Email">
+          </form>
+
+
+
+          <div class="picture">
+            <img src="./images/idPicture.jpg">
+          </div>
 
 
 
@@ -172,6 +213,32 @@
 
 
 
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <script type="text/javascript">
+    emailjs.init('PztAfceeb8TwSFfQl')
+
+    const btn = document.getElementById('button');
+
+    document.getElementById('form')
+      .addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        btn.value = 'Sending...';
+
+        const serviceID = 'service_mk9xgon';
+        const templateID = 'template_i925sjn';
+
+        emailjs.sendForm(serviceID, templateID, this)
+          .then(() => {
+            btn.value = 'Send Email';
+            alert('메일보내기 성공');
+          }, (err) => {
+            btn.value = 'Send Email';
+            alert(JSON.stringify(err));
+          });
+      });
+  </script>
 </body>
 
 </html>
