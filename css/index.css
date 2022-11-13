@@ -198,11 +198,14 @@ li {
   border-radius: 15px 15px 15px 15px;
   background-color: rgb(255, 140, 0);
   margin-bottom: 25px;
+  opacity: 0;
+  transition: all 0.5s;
 
 }
 
 .school li.schoolAct {
-  background-color: black;
+
+  opacity: 1;
 }
 
 .school li p {
@@ -214,9 +217,9 @@ li {
 }
 
 .school li h5 {
-  font-size: 50px;
+  font-size: 45px;
   color: rgb(31, 31, 31);
-  font-weight: 900;
+  font-weight: 500;
   margin-left: 50px;
   line-height: 50px;
 
@@ -290,10 +293,18 @@ li {
   width: 250px;
   margin-left: 15px;
   margin-bottom: 15px;
+  opacity: 0.5;
+  transition: all.0.7s;
 
+}
+
+.skills_icon li:hover {
+  opacity: 1;
 
 
 }
+
+
 
 
 

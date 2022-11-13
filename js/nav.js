@@ -1,20 +1,20 @@
 window.addEventListener('load', () => {
-  const school = document.querySelector('school')
-  const schoolLi = document.querySelectorAll('school li')
-  let targetY = 0;
-  document.addEventListener('scroll', (e) => {
-    targetY = document.documentElement.scrollTop
-    console.log(targetY)
+  $(document).scroll(function () {
+    var scroll_X = $(this).scrollTop();
+    console.log(scroll_X)
+    if (scroll_X >= 750) {
 
-    if (targetY >= 100) {
-
-      schoolLi.classList.add('schoolAct')
+      $('.school li').addClass('schoolAct');
+    }
+    else if (scroll_X < 740) {
+      $('.school li').removeClass('schoolAct');
 
 
     }
 
 
-
   });
+
+
 
 });
