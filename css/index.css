@@ -25,6 +25,31 @@ li {
   height: 1100px;
 }
 
+#up {
+  position: fixed;
+  top: 850px;
+  right: 70px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  z-index: 9999;
+  border-radius: 15px 15px 15px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+#up>a {
+
+  width: 100%;
+  color: rgb(255, 140, 0);
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
 .menu {
   position: absolute;
   top: -11vh;
@@ -459,7 +484,13 @@ li {
   background-color: aliceblue;
 }
 
-.exper_box_b {}
+.exper_box_b p {
+  padding-top: 50px;
+  color: white;
+
+  font-size: 20px;
+  font-weight: 100;
+}
 
 
 
